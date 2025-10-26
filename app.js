@@ -356,7 +356,7 @@ const projectData = {
         ],
     },
     project3: {
-        title: 'Urban Stories Documentary',
+        title: 'Motion Graphics',
         video: "https://www.youtube.com/embed/ZXGG8chxKFs?autoplay=1",
         description: 'Still pngs and assests animation with flashy effects and transitions that make a video much more engaging and beautiful to watch.',
         details: [
@@ -688,6 +688,7 @@ window.addEventListener("scroll", () => {
         viewCounter.classList.remove("hide"); // always visible on desktop
     }
 });
+
 
 
 
