@@ -357,14 +357,13 @@ const projectData = {
     },
     project3: {
         title: 'Urban Stories Documentary',
-        video: "https://www.youtube.com/embed/VIDEO_ID_2?autoplay=1",
-        description: 'An award-winning documentary that explores the lives, dreams, and struggles of people living in urban environments. Through careful editing and thoughtful sound design, the film creates an intimate portrait of modern city life.',
+        video: "https://www.youtube.com/embed/ZXGG8chxKFs?autoplay=1",
+        description: 'Still pngs and assests animation with flashy effects and transitions that make a video much more engaging and beautiful to watch.',
         details: [
-            'Duration: 25 minutes',
+            'Duration: 5-30 Seconds',
             'Format: HD (1080p)',
-            'Software: Premiere Pro, Audition',
-            'Special: Narrative storytelling, Audio mixing',
-            'Screening: 15+ film festivals worldwide'
+            'Software: After Effects, Boris FX',
+            'Special: Flashy Motion Graphics, Sound Effects' 
         ],
     }
 };
@@ -663,7 +662,7 @@ window.addEventListener("load", () => {
     const viewCounter = document.getElementById("viewCounter");
     if (viewCounter) {
         fetch("https://api.api-ninjas.com/v1/counter?id=site-views&hit=true", {
-            headers: { "X-Api-Key": "x2Kdjv0YvZ8GR2W1Rj+6GQ==CApKY7ixj3THIHsA" }
+            headers: { "X-Api-Key": "DE0m9CpYp+vSugYSBu9NWQ==CXONSq2zL1BRAgPr" }
         })
             .then(res => res.json())
             .then(data => {
