@@ -662,7 +662,7 @@ window.addEventListener("load", () => {
     const viewCounter = document.getElementById("viewCounter");
     if (viewCounter) {
         fetch("https://api.api-ninjas.com/v1/counter?id=site-views&hit=true", {
-            headers: { "X-Api-Key": "DE0m9CpYp+vSugYSBu9NWQ==CXONSq2zL1BRAgPr" }
+            headers: { "X-Api-Key": "x2Kdjv0YvZ8GR2W1Rj+6GQ==CApKY7ixj3THIHsA" }
         })
             .then(res => res.json())
             .then(data => {
@@ -688,6 +688,7 @@ window.addEventListener("scroll", () => {
         viewCounter.classList.remove("hide"); // always visible on desktop
     }
 });
+
 
 
 
